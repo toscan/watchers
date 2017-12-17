@@ -1,0 +1,35 @@
+
+
+#content {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .half{
+        width: 50%;
+    }
+    #half-left{
+        #img-container #background-image{
+            width: 50%;
+            position: absolute;
+            top: 25%;
+            opacity: 0.5;
+        }
+        #title{
+            font-size: 50px;
+            color: #FBE9E1;
+            font-family: 'Rubik Mono One', sans-serif;
+        }
+    }
+    #half-right{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        #pres-site{
+            padding: 25px;
+            line-height: 1.9;
+        }
+    }
+
+}
+

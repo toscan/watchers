@@ -1,0 +1,114 @@
+.pluses {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    z-index: 15;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.plus-row {
+    position: relative;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.plus-row:first-child .plus:nth-child(4) {
+    -webkit-transition-delay: .06667s;
+    transition-delay: .06667s;
+}
+
+.plus {
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 50%;
+    margin-left: -4px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: .5s;
+    transition: .5s;
+    opacity: 0.5;
+}
+
+.plus:before {
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 1px;
+    height: 100%;
+}
+
+.plus:after {
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: 1px;
+    width: 100%;
+}
+
+.plus:after, .plus:before {
+    content: "";
+    position: absolute;
+    background-color: #626277;
+}
+
+/*
+.plus:nth-child(-n+2):after, .plus:nth-child(-n+2):before {
+    content: "";
+    position: absolute;
+    background-color: white;
+}*/
+
+
+
+.plus:first-child {
+    left: 0;
+}
+
+.plus:nth-child(2) {
+    left: 16.66%;
+}
+
+.plus:nth-child(3) {
+    left: 34.32%;
+}
+
+.plus:nth-child(4) {
+    left: 49.98%;
+}
+
+.plus:nth-child(5) {
+    left: 66.64%;
+}
+
+.plus:nth-child(6) {
+    left: 83.3%;
+}
+
+.plus:nth-child(7) {
+    left: 99.96%;
+}
