@@ -1,8 +1,6 @@
 import React from 'react'
-import ReactDom from 'react-dom'
 import './layout.css'
-import PlusComponent from '../PlusComponent'
-import BackgroundImage from '../images/alert.jpg'
+import BackgroundImage from '../../images/alert.jpg'
 
 class ContentComponent extends React.Component {
     render() {

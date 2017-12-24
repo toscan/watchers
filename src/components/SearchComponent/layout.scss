@@ -1,0 +1,39 @@
+
+input:focus {
+  background-color: rgba(0,0,0,0.45);
+}
+
+input {
+  display: inline-block;
+  color: black;
+  padding: 10px;
+  width: 250px;
+  box-sizing: border-box;
+  background-color: rgba(0,0,0,0.25);
+  border: none;
+  border-radius: 2px;
+  margin: 10px auto;
+  transition:background-color 0.5s ease;
+}
+
+
+
+.charactere-gallery{
+  > div {
+    width: 32%;
+    div.card{
+      background-color: #19698C;
+      border-color: #384B64;
+      border: none;
+      color: white;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 20px 50px;
+      border-radius: 3px;
+      margin: 5px;
+      border-bottom-style: solid;
+      border-bottom-width: 3px;
+      transition: text-shadow 0.3s ease;
+    }
+  }
+}
